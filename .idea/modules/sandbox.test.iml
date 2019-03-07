@@ -8,7 +8,17 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: junit:junit-dep:4.11" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: org.testng:testng:7.0.0-beta3">
+        <CLASSES />
+        <JAVADOC>
+          <root url="https://search.maven.org/artifact/org.testng/testng/7.0.0-beta3/jar" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="org.seleniumhq.selenium:selenium-java:3.141.59" level="project" />
+    <orderEntry type="library" name="org.testng:testng:6.9.6" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="sandbox.main" />
 </module>
