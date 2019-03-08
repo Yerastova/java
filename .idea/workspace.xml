@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14d2636d-dc8f-4fdc-9bb4-64a3fd72b3d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_testng_testng_7_0_0_beta3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_testng_testng_6_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/study/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/study/FishMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/study/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/study/PetMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/FirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupCreationsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_dep_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sandbox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sandbox.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sandbox.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sandbox.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/sandbox.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupDeletionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/.gradle/5.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/.gradle/5.0/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/.gradle/5.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/.gradle/5.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/.gradle/5.0/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/.gradle/5.0/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/.gradle/5.0/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/.gradle/5.0/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/out/production/classes/MyFirstProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupCreationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupCreationsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/sandbox/.gradle/" />
     <ignored path="$PROJECT_DIR$/sandbox/build/" />
@@ -100,22 +82,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupCreationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+            <state relative-caret-position="51">
+              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1059">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1552#1553#0" expanded="true" />
-                <element signature="e#1621#1622#0" expanded="true" />
-                <element signature="e#1588#1589#0" expanded="true" />
-                <element signature="e#1649#1650#0" expanded="true" />
-                <element signature="e#2158#2159#0" expanded="true" />
-                <element signature="e#2216#2217#0" expanded="true" />
-                <element signature="e#2178#2179#0" expanded="true" />
-                <element signature="e#2243#2244#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1320#1321#0" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1425#1426#0" expanded="true" />
+                <element signature="e#2143#2144#0" expanded="true" />
+                <element signature="e#2201#2202#0" expanded="true" />
+                <element signature="e#2239#2240#0" expanded="true" />
+                <element signature="e#2304#2305#0" expanded="true" />
+                <element signature="e#3259#3260#0" expanded="true" />
+                <element signature="e#3320#3321#0" expanded="true" />
+                <element signature="e#3356#3357#0" expanded="true" />
+                <element signature="e#3421#3422#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupDeletionTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -145,7 +161,9 @@
         <option value="$PROJECT_DIR$/sandbox/src/main/java/study/Fish.java" />
         <option value="$PROJECT_DIR$/sandbox/build.gradle" />
         <option value="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/FirstTest.java" />
+        <option value="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/TestBase.java" />
         <option value="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupCreationsTest.java" />
+        <option value="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupDeletionTests.java" />
       </list>
     </option>
   </component>
@@ -242,7 +260,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551987823543" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551989283602" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sandbox/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium-java-3.141.59.jar!/" />
@@ -253,6 +271,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.stqa.pft.sandbox" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.stqa.pft.sandbox" />
     </key>
   </component>
@@ -268,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GroupCreationsTest">
+  <component name="RunManager" selected="TestNG.GroupDeletionTests">
     <configuration name="FishMaster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="study.FishMaster" />
       <module name="sandbox.main" />
@@ -278,13 +299,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.MyFirstProgram" />
-      <module name="sandbox.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -337,13 +351,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupDeletionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sandbox.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.stqa.pft.sandbox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.sandbox" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.GroupDeletionTests" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupDeletionTests" />
         <item itemvalue="TestNG.GroupCreationsTest" />
         <item itemvalue="Gradle.sandbox [dependencies]" />
         <item itemvalue="Application.FishMaster" />
         <item itemvalue="Application.PetMaster" />
-        <item itemvalue="Application.MyFirstProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -373,12 +403,17 @@
     <history-entry file="GroupCreationsTest - 2019.03.07 at 21h 19m 19s.xml">
       <configuration name="GroupCreationsTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="GroupCreationsTest - 2019.03.07 at 22h 07m 41s.xml">
+      <configuration name="GroupCreationsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupDeletionTests - 2019.03.07 at 22h 07m 57s.xml">
+      <configuration name="GroupDeletionTests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06375839" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14496644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,7 +421,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798658" visible="true" weight="0.37818697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -499,20 +534,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupCreationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+        <state relative-caret-position="51">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/GroupDeletionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1552#1553#0" expanded="true" />
-            <element signature="e#1621#1622#0" expanded="true" />
-            <element signature="e#1588#1589#0" expanded="true" />
-            <element signature="e#1649#1650#0" expanded="true" />
-            <element signature="e#2158#2159#0" expanded="true" />
-            <element signature="e#2216#2217#0" expanded="true" />
-            <element signature="e#2178#2179#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1059">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#2143#2144#0" expanded="true" />
+            <element signature="e#2201#2202#0" expanded="true" />
+            <element signature="e#2239#2240#0" expanded="true" />
+            <element signature="e#2304#2305#0" expanded="true" />
+            <element signature="e#3259#3260#0" expanded="true" />
+            <element signature="e#3320#3321#0" expanded="true" />
+            <element signature="e#3356#3357#0" expanded="true" />
+            <element signature="e#3421#3422#0" expanded="true" />
           </folding>
         </state>
       </provider>
